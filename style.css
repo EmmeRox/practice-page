@@ -1,0 +1,59 @@
+:root {
+  --heading-font: "Roboto Condensed", sans-serif;
+  --sub-font: "Sofia Sans Extra Condensed", sans-serif;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+.hero {
+  background-color: #66768a;
+  text-align: center;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 1rem 0.2rem 1rem;
+  padding: 5rem 1rem 0.1rem 1rem;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #66768a;
+}
+
+.header-text {
+  color: whitesmoke;
+  padding: 0.2rem 3rem;
+  font-size: 15px;
+}
+
+.mid {
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: var(--sub-font);
+  padding: 2rem 4rem;
+}
+
+.two-column {
+  display: flex;
+  padding: 3rem;
+}
+
+.item-one {
+  margin-right: 2rem;
+}
+
+.item-two {
+  margin-left: 2rem;
+}
+
+.img {
+  width: 100%;
+}
