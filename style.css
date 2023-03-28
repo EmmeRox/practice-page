@@ -54,8 +54,29 @@ h1 {
   margin-left: 2rem;
 }
 
+.more {
+  background-color: #bec4cc;
+}
+
+.more-info {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 0.1rem;
+}
+
 .img {
   width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+.img-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--sub-font);
+  padding: 0;
+  margin-top: 0.8rem;
+  margin-bottom: 5px;
 }
 
 .menu {
@@ -67,7 +88,7 @@ h1 {
 }
 
 .donate {
-  padding-left: 18rem;
+  padding-left: 10rem;
 }
 
 .menu a {
@@ -92,6 +113,99 @@ h1 {
   justify-content: space-around;
 }
 
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+button.more-btn {
+  font-size: 10px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.7rem 2rem;
+  margin: 0 auto;
+  display: block;
+  border-radius: px;
+  border: 1px solid gray;
+}
+
+.volunteer {
+  background-color: whitesmoke;
+  padding: 3.5rem;
+  text-align: center;
+}
+
+.volunteer h2 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: var(--sub-font);
+  font-size: 28px;
+}
+
+.volunteer-info {
+  line-height: 16px;
+  padding: 1rem 4rem;
+  font-size: 13px;
+  margin: 0;
+}
+
+.foot-nav {
+  margin-left: 2rem;
+}
+
+.foot-nav i {
+  padding-right: 14px;
+}
+
+.map {
+  padding-left: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 0.2rem;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 2rem;
+  color: white;
+}
+
+footer {
+  padding: 0.4rem 0.4rem 3rem 0.4rem;
+  background-color: rgb(47, 44, 58);
+  color: whitesmoke;
+}
+
+.footing {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+}
+
+.contact p {
+  margin: 1px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
+
+footer li {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul {
+  padding-left: 2rem;
+  padding-top: 0;
+}
+
+.disclaimer {
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
 @media (max-width: 590px) {
   .donate {
     padding-left: 7rem;
@@ -106,14 +220,18 @@ h1 {
   .menu li {
     padding: 1rem;
   }
-}
-
-@media (max-width: 475) {
-  .donate {
-    padding-left: 0;
+  .volunteer {
+    padding-top: 1.5rem;
   }
-  .menu li {
-    display: inline;
-    justify-content: center;
+  .volunteer h2 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .volunteer-info {
+    padding: 1rem 0.3rem;
+  }
+  .footing {
+    display: block;
+    padding-left: 3rem;
   }
 }
