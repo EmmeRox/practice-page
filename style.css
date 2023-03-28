@@ -57,3 +57,63 @@ h1 {
 .img {
   width: 100%;
 }
+
+.menu {
+  padding-top: 1rem;
+}
+
+.link {
+  padding: 1.5rem;
+}
+
+.donate {
+  padding-left: 18rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.menu ul {
+  padding-left: 1rem;
+}
+
+.donate a {
+  background-color: aliceblue;
+  padding: 0.35rem;
+  border-radius: 3px;
+  color: #66768a;
+}
+
+.menu li {
+  display: inline-flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+@media (max-width: 590px) {
+  .donate {
+    padding-left: 7rem;
+  }
+  h1 {
+    padding-top: 4rem;
+    font-size: 25px;
+  }
+  .link li {
+    padding: 0;
+  }
+  .menu li {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 475) {
+  .donate {
+    padding-left: 0;
+  }
+  .menu li {
+    display: inline;
+    justify-content: center;
+  }
+}
