@@ -44,6 +44,7 @@ h1 {
 .two-column {
   display: flex;
   padding: 3rem;
+  justify-content: center;
 }
 
 .item-one {
@@ -68,6 +69,10 @@ h1 {
   width: 100%;
   display: block;
   border-radius: 3px;
+}
+
+.img-space {
+  margin-bottom: 1.4rem;
 }
 
 .img-title {
@@ -235,6 +240,10 @@ footer ul {
     padding-top: 4rem;
     font-size: 25px;
   }
+  h3 {
+    padding-top: 10;
+    margin-top: 10px;
+  }
   .link li {
     padding: 0;
   }
@@ -254,5 +263,26 @@ footer ul {
   .footing {
     display: block;
     padding-left: 3rem;
+  }
+  .two-column {
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item-one {
+    margin: 0;
+  }
+
+  .item-two {
+    margin: 0;
+  }
+
+  .img {
+    display: none;
+  }
+  button.more-btn {
+    margin-bottom: 1rem;
   }
 }
